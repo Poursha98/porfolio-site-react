@@ -8,17 +8,17 @@ function Navigation() {
             <Navbar.Brand className='m-2'>
                 LOGO
             </Navbar.Brand>
-            <Navbar.Toggle className='me-4'/>
+            <Navbar.Toggle className='me-4  '/>
             <Navbar.Collapse>
-                <Nav className='m-2'>
+                <Nav className='mx-4 ms-2'>
                     <Nav.Link>
-                        <Link to='/' className='link-light text-decoration-none' >Home</Link>
+                        <Link to='/' className='opacity-100 link-opacity-75-hover link-light text-decoration-none' >Home</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to='/projects' className='link-light text-decoration-none'>Projects</Link>
+                        <Link to='/projects' className='opacity-100 link-opacity-75-hover link-light text-decoration-none'>Projects</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to='/experience' className='link-light text-decoration-none'>Experience</Link>
+                        <Link to='/experience' className='opacity-100 link-opacity-75-hover link-light text-decoration-none'>Experience</Link>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
