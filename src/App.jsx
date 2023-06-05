@@ -4,7 +4,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import Experience from './pages/Experience.jsx'
 import Navigation from "./components/Navigation.jsx";
-
+import Footer from "./components/Footer.jsx";
 
 function App() {
 
@@ -17,8 +17,8 @@ function App() {
         <Route path={'/'} element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}></Route>
         <Route path='/experience' element={<Experience/>}></Route>
-        <Route></Route>
       </Routes>
+      <Footer/>
     </Router>
     </>
   )
