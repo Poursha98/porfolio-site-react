@@ -4,11 +4,11 @@ function Navigation() {
     return (
         <div>
             <Navbar bg='dark' variant='dark' sticky='top' expand='sm'>
-                <div className='container'>
+                <div className='container m-0'>
                     <Navbar.Brand className='m-1'>
                         LOGO
                     </Navbar.Brand>
-                    <Navbar.Toggle className='me-4  '/>
+                    <Navbar.Toggle className='me-4'/>
                     <Navbar.Collapse>
                         <Nav className='mx-4 ms-2'>
                             <Nav.Link href='/'
