@@ -1,0 +1,7 @@
+.icon{
+    transition: .3s ease;
+}
+.icon:hover{
+    box-shadow: 0 15px 35px rgb(0,0,0,0.1);
+    transform: scale(1.5);
+}
