@@ -11,7 +11,7 @@ function Navigation() {
             setNav(false)
         }
     }
-    window.addEventListener('scroll',changeBg)
+    // window.addEventListener('scroll',changeBg)
     return (
         <div className='sticky-top'>
             <Navbar className={nav ? 'myNav active' : 'myNav'} variant='dark' sticky='top' expand='sm' >

@@ -14,7 +14,7 @@ h2{
 }
 .myNav.active{
     background-color:#111925 ;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 
 .h1{
