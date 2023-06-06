@@ -8,8 +8,8 @@ function Navigation() {
                     <Navbar.Brand className='m-1'>
                         LOGO
                     </Navbar.Brand>
-                    <Navbar.Toggle className='me-4'/>
-                    <Navbar.Collapse>
+                    <Navbar.Toggle className='me-4' />
+                    <Navbar.Collapse >
                         <Nav className='mx-4 ms-2'>
                             <Nav.Link href='/'
                                       className='opacity-100 link-opacity-75-hover link-light text-decoration-none'>

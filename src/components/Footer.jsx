@@ -1,15 +1,17 @@
 import InstagramIcon from '@mui/icons-material/Instagram'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import CallIcon from '@mui/icons-material/Call';
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import '../App.css'
 
 function Footer() {
+
     return (
-        <footer className='bg-dark text-light pt-5 pb-4 fixed-bottom'>
-            <div className='container'>
+
+        <footer className='bg-dark text-light min-vh-75 mb-0 d-flex flex-column '>
+            <div className='container mt-5'>
                 <div className='row text-center mb-4'>
-                    <Link to='/contact' className='col text-light text-decoration-none '>Contact us</Link>
+                    <Link  to='/contact' className='col text-light text-decoration-none  '>Contact us</Link>
                     <Link  to='/about' className='col text-decoration-none text-light'>About us</Link>
                     <Link  to='/gallery' className='col text-decoration-none text-light'>Gallery</Link>
                 </div>

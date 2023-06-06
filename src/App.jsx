@@ -8,6 +8,7 @@ import Footer from "./components/Footer.jsx";
 import Contact from './pages/Contact.jsx'
 import AboutUs from "./pages/AboutUs.jsx";
 import Gallery from "./pages/Gallery.jsx";
+import './App.css'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
     <Router>
-      <Navigation/>
+      <Navigation  />
       <Routes>
         <Route path={'/'} element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}></Route>
@@ -24,10 +25,12 @@ function App() {
         <Route path='/about' element={<AboutUs/>}></Route>
         <Route path='/gallery' element={<Gallery/>}></Route>
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
     </>
   )
 }
+
+
 
 export default App
