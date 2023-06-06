@@ -9,7 +9,7 @@ function Footer() {
         <footer className='bg-dark text-light pt-5 pb-4 fixed-bottom'>
             <div className='container'>
                 <div className='row text-center mb-4'>
-                    <Link to='/contact' className='col text-decoration-none text-light'>Contact us</Link>
+                    <Link to='/contact' className='col text-light text-decoration-none '>Contact us</Link>
                     <Link  to='/about' className='col text-decoration-none text-light'>About us</Link>
                     <Link  to='/gallery' className='col text-decoration-none text-light'>Gallery</Link>
                 </div>
