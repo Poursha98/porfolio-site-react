@@ -4,6 +4,18 @@
      font-family: 'Open-sans', sans-serif;
  }
 
+h2{
+    color: rgba(50,78,115,1)
+}
+
+.h1{
+    color: rgba(50,78,115,1)
+}
+
+li{
+    color: rgba(50,78,115,1)
+}
+
 .about{
 background: rgba(50,78,115,1)
 }
