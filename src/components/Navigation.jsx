@@ -1,9 +1,20 @@
 import {Navbar, Nav} from "react-bootstrap";
+import {useState} from "react";
 
 function Navigation() {
+    const [nav,setNav] = useState(false)
+
+    const changeBg = ()=>{
+        if(window.scrollY >=56){
+            setNav(true)
+        } else {
+            setNav(false)
+        }
+    }
+    window.addEventListener('scroll',changeBg)
     return (
-        <div>
-            <Navbar bg='dark' variant='dark' sticky='top' expand='sm'>
+        <div className='sticky-top'>
+            <Navbar className={nav ? 'myNav active' : 'myNav'} variant='dark' sticky='top' expand='sm' >
                 <div className='container m-0'>
                     <Navbar.Brand className='m-1'>
                         LOGO

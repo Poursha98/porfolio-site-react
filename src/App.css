@@ -8,6 +8,15 @@ h2{
     color: rgba(50,78,115,1)
 }
 
+.myNav{
+    background-color: rgba(50,78,115,1);
+    transition: 0.3s ease;
+}
+.myNav.active{
+    background-color:#111925 ;
+    transition: 0.5s ease;
+}
+
 .h1{
     color: rgba(50,78,115,1)
 }

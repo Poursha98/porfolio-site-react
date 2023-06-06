@@ -21,7 +21,7 @@ function Footer() {
                     <Link className='icon mx-2 text-light' to='tel:+989122336'><CallIcon/></Link>
                 </div>
                 <div className='border border-1 mt-3 shadow-lg'></div>
-                <p className='text-center mt-4 '>All the legal rights of ThisWebsite belongs to ThisWebsite</p>
+                <p className='text-center mt-4 my-4-2 '>All the legal rights of ThisWebsite belongs to ThisWebsite</p>
             </div>
         </footer>
     )
