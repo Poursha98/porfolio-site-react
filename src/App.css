@@ -22,7 +22,9 @@ h2{
 }
 
 li{
-    color: rgba(50,78,115,1)
+    color: rgba(50,78,115,1);
+    margin: 150px !important;
+
 }
 
 .about{
